@@ -1,0 +1,63 @@
+
+/* ...All styles, see index.html for imported google font...*/
+
+
+* { 
+    font-family: 'Gloock', serif;
+}
+
+h3 { 
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.header-component { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20em;
+    font-family: 'Gloock', serif; 
+    font-size: 2em;
+}
+
+.post-user { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8em;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 5em;
+}
+
+.display-users { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userContainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8em;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-bottom: 5em;
+}
+
+#user-display { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-weight: bolder;
+    line-height: 3em;
+    font-size: 2em;;
+}
+
+#update-form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

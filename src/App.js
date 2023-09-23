@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GetUserData from './Components/ApiHandle';
+import HeaderComponent from './Components/Header';
 
-function App() {
+
+// App contains the Header Component and the UserData called and organized from MockApi.
+
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <HeaderComponent />
+      <GetUserData />
     </div>
-  );
+  )
+
 }
 
 export default App;
